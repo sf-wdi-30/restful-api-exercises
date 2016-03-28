@@ -56,4 +56,4 @@ Write Pseudocode like the above. Be creative, and follow RESTful conventions and
 
 ### Deliverables
 
-Submit this pseudocode in a markdown or text file via Github.
+Fork and clone this repo. Submit your pseudocode in a markdown or text file by making a pull request on this repository.
