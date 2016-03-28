@@ -46,6 +46,8 @@ GET ALL VIDEOS BY COMEDIAN "/comedians/:id/videos"
 
 GET VIDEO BY COMEDIAN "/comedians/:id/videos/:id"
 
+__Note__: In the above example any code preceded by a colon is a __variable__ which would be filled in by specific information in the real requests. This is typical syntax in talking about variables in routes.
+
 That's all there is to it!
 
 ### Now its your turn.
