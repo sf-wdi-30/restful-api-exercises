@@ -1,0 +1,20 @@
+### Now its your turn.
+
+Say we want to create an API similar to the one above, that returns data about icecream. We need to be able to get information about specific flavors, as well as all of the flavors we have in our database. We also want to get some flavors by category, like "fruity", "gluten free", or "chunky". Finally we want to add one POST route that allows users of our API to add new flavors!
+
+Write Pseudocode like the above. Be creative, and follow RESTful conventions and best practices.
+
+1. get all icecream flavors
+2. get an individual icecream flavor
+3. get icecream flavors by category (gluten-free, fruity, etc)
+4. allow users to add new flavors - POST
+
+//My pseudo-code routes:
+
+GET ALL ICECREAM FLAVORS "/icecream"
+
+GET INDIVIDUAL ICECREAM FLAVOR "/icecream/:flavor"
+
+GET ICECREAM FLAVOR BY CATEGORY "/icecream/category/:flavor"
+
+ADD NEW ICECREAM FLAVOR "/icecream"
