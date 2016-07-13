@@ -1,0 +1,7 @@
+GET all icecream flavors "/icecream/flavors"
+
+GET icecream by unique ID "/icecream/flavors/:id"
+
+GET icecream flavors by categories "/icecream/categories"
+
+POST icecream flavors from user input to API "/icecream/entry"
