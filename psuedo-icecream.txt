@@ -1,0 +1,12 @@
+Get all flavors     =>   "/flavors"
+Get specific flavor =>   "/flavors/:types"
+
+Get all categories  =>   "/categories"
+Get specific category => "/categories/:types"
+
+Get all flavors by category =>  "/categories/:types/flavors"
+
+
+
+Post to flavors  => "/flavors"  {flavor: chocolate, category: chocolate}
+   }
