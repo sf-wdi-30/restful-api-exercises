@@ -1,0 +1,7 @@
+GET ALL FLAVORS "/flavors"
+GET FLAVOR BY ID "/flavors/:id"
+GET ALL CATEGORIES "/categories"
+GET FLAVORS BY CATEGORY "/categories/:id"
+GET ALL FLAVORS BY CATEGORY "/categories/:id/flavors"
+GET FLAVOR BY CATEGORY "/categories/:id/flavors/:id"
+POST FLAVORS "/flavors"
