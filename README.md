@@ -56,6 +56,23 @@ Say we want to create an API similar to the one above, that returns data about i
 
 Write Pseudocode like the above. Be creative, and follow RESTful conventions and best practices.
 
+// My pseudo-code routes:
+
+GET ALL FLAVORS "/flavors"
+
+GET FLAVOR BY ID "/flavors/:id"
+
+GET ALL CATEGORIES "/categories"
+
+GET CATEGORY: "/categories/:id"
+
+GET ALL FLAVORS BY CATEGORY "/categories/:id/flavors"
+
+GET FLAVOR BY CATEGORY "/categories/:id/flavors/:id"
+
+POST FLAVOR "/categories/:id/flavors/:id"
+
+
 ### Deliverables
 
 Fork and clone this repo. Submit your pseudocode in a markdown or text file by making a pull request on this repository.
