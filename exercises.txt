@@ -1,0 +1,5 @@
+GET all flavors "/flavors"
+GET fruity flavors "/flavors/fruity"
+GET gluten free flavors "/flavors/glutenfree"
+GET chunky flavors "/flavors/chunky"
+POST new flavor "/flavors"
