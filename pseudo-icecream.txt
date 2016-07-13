@@ -13,3 +13,4 @@
 
 
 -POST route so that users may add to our API: "/flavors/add-flavor-form"
+  -i.e: form will include name of flavor, sub-category ("fruity", "gluten-free", etc.)
