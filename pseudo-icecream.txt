@@ -1,0 +1,15 @@
+//Pseudo-code  Ice Cream Routes:
+
+-GET All flavors in database: "/flavors"
+
+
+-GET specific flavor by ID: "/flavors/:id"
+
+
+-GET sub-flavor categories: "/categories/flavors"
+
+
+-GET specific flavor from sub-categories: "/categories/:id/flavor/:id"
+
+
+-POST route so that users may add to our API: "/flavors/add-flavor-form"
