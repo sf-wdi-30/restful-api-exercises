@@ -1,0 +1,16 @@
+##Ice Cream psuedocode for RESTful conventions/best practices##
+
+* GET all flavors "/flavors"
+* GET specific flavor by id "/flavors/:id"
+* GET all ice cream types "/ictypes"
+* GET specific ice cream type by id "/ictypes/:id"
+* GET all flavors by ice cream type "/flavors/:id/ictypes"
+* GET specific flavor by specific ice cream type "/ictypes/:id/flavors/:id"
+* POST new flavor "/flavors"
+
+* GET	 /flavors	    flavorsIndex	[Listing all flavors]
+* GET	 /flavors/:id	flavorsShow	  [Details of one specific flavor]
+* POST /flavors	    flavorsCreate	[Create a new flavor]
+
+* GET	 /ictypes	    ictypesIndex	[Listing all ice cream types]
+* GET	 /ictypes/:id	ictypesShow	  [Details of one specific ice cream type]
