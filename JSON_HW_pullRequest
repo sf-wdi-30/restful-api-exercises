@@ -1,0 +1,17 @@
+GET ALL ICE CREAM: "/icecream"
+
+GET ICE CREAM BY BRAND: "/brands"
+
+GET ICE CREAM BY FLAVOR: "/icecream/flavors"
+
+GET SPECIFIC FLAVOR OF ICE CREAM BY BRAND: "/brands/flavors"
+
+GET ICECREAM BY CATEGORY: "/icecream/:id"
+
+GET ICECREAM BY BRAND AND TYPE: "/icecream/brands/:id"
+
+GET ICECREAM BY BRAND TYPE AND FLAVOR: "/icecream/brands/flavors/:type"
+
+CREATE NEW ICECREAM FLAVOR: "/icecream/flavors"
+
+GITTEST
