@@ -1,0 +1,11 @@
+GET ALL ICE CREAM "/icecream"
+
+GET ALL ICE CREAM FLAVORS "/icecream/flavors"
+
+GET SPECIFIC ICE CREAM FLAVOR "/icecream/flavors/:id"
+
+GET ALL CATEGORIES OF ICE CREAM FLAVORS "/icecream/flavors/categories"
+
+GET SPECIFIC CATEGORY OF ICE CREAM FLAVORS "/icecream/flavors/categories/:id"
+
+POST ROUTE TO ADD NEW FLAVOR "POST /icecream/flavors"
