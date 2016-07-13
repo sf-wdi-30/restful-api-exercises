@@ -1,0 +1,16 @@
+RESTful API - Icecream
+
+Wanted Routes :
+- all flavors
+- specific flavor
+- categories of flavors
+- specific flavor in category
+- add new flavor
+
+PSEUDOCODE :
+GET ALL FLAVORS "/flavors"
+GET FLAVOR BY ID "/flavors/:id"
+GET ALL CATEGORIES "/categories"
+GET FLAVOR BY CATEGORY "/categories/:id"
+POST NEW FLAVOR "/flavors/:new" ??
+                "/flavors"
