@@ -2,15 +2,20 @@
 
 -GET All flavors in database: "/flavors"
 
-
 -GET specific flavor by ID: "/flavors/:id"
 
-
--GET sub-flavor categories: "/categories/flavors"
-
+-GET sub-flavor categories: "/categories/:id"
+  -i.e:
+    "/categories/chunky"
+    "/categories/gluten-free"
+    "/categories/:fruity"
 
 -GET specific flavor from sub-categories: "/categories/:id/flavor/:id"
 
+  -i.e:
+    "/categories/chunky/flavor/:id"
+    "/categories/gluten-free/flavor/:id"
+    "/categories/fruity/flavor/:id"
 
--POST route so that users may add to our API: "/flavors/add-flavor-form"
+-POST route so that users may add to our API: "api/add-flavor-form"
   -i.e: form will include name of flavor, sub-category ("fruity", "gluten-free", etc.)
